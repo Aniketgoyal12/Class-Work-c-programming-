@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <math.h>
+//Program to find diameter circumference and area of circle//
+
+int main()
+{
+    float r,d,c,a;
+	printf("Enter the radius of the circle:");
+	scanf("%f", &r);
+	
+	d = r *2 ;
+	printf("The diameter of the circle is %f\n", d);
+	
+	float pi = 3.14;
+	
+	c = 2 * pi * r;
+	printf("The circumference of the circle is %f\n", c);
+	
+	a = pi * pow (r , 2);
+	printf("Area of the circle is %f", a);
+
+
+    return 0;
+}

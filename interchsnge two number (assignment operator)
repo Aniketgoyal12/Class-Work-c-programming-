@@ -1,0 +1,24 @@
+#include <stdio.h>
+//Program to interchange two number using assignment operator//
+int main()
+{
+    int first , second , temporary;
+    printf("Enter first number");
+    scanf("%if",&first);
+    printf("Enter second number");
+    scanf("%if",&second);
+    
+    //Assign the first number to tempoary//
+    temporary = first;
+    
+    //Assign the second number to first//
+    first = second ;
+    
+    //Assign the temporary to first number//
+    second = temporary;
+    
+    printf("\nAfter swapping first number =%i",second);
+    printf("\nAfter swapping second number = %i",first);
+
+    return 0;
+}

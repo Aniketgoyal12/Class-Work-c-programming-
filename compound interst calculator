@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <math.h>
+//Program to find compound interest //
+
+int main ()
+{
+    float principle, rate , time , amount , interestamount;
+    printf("Enter the principle loan amount ");
+    scanf("%f",&principle);
+    
+    printf("Enter the rate of interest ");
+    scanf("%f",&rate);
+    
+    printf("Enter the time of loan ");
+    scanf("%f", &time);
+    
+    amount = principle * pow((1+ rate/100) , time );
+    printf ("The total amount of loan is %f\n", amount);
+    
+    interestamount = amount - principle;
+    
+    printf("The interest amount is %f", interestamount);
+    
+    return 0;
+    
+}

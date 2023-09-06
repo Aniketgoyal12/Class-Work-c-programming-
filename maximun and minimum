@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <math.h>
+
+//Program to find maximum and minimum//
+
+
+int main()
+{
+    int a,b;
+    printf("Enter first number");
+    scanf("%d",&a);
+    
+    printf("Enter second numnber");
+    scanf("%d",&b);
+    
+    if(a>b)
+    {
+        printf("a is greater than b");
+    }
+    
+    if(b>a)
+    {
+        printf("b is greater than a");
+    }
+    
+    if(a=b)
+    {
+        printf("both are equal");
+    }
+    
+    return 0;
+    
+
+}

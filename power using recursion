@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <math.h>
+
+int main ()
+
+{
+    int base,a,result;
+    
+    printf("Enter a base number :");
+    scanf("%d",&base);
+    printf("Enter a power number(+ve only)");
+    scanf("%d",&a);
+    result = pow(base , a);
+    
+    printf("%d^%d = %d",base,a,result);
+    
+}

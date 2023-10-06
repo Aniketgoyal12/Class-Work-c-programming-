@@ -17,8 +17,8 @@ int main()
     //Assign the temporary to first number//
     second = temporary;
     
-    printf("\nAfter swapping first number =%i",second);
-    printf("\nAfter swapping second number = %i",first);
+    printf("\nAfter swapping first number =%i",first);
+    printf("\nAfter swapping second number = %i",second);
 
     return 0;
 }
